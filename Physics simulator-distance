@@ -1,0 +1,10 @@
+# Physics Simulator: Calculate distance using s = ut + 0.5at^2
+
+
+u = float(input("Enter initial velocity (u) in m/s: "))
+t = float(input("Enter time (t) in seconds: "))
+a = float(input("Enter acceleration (a) in m/s^2: "))
+
+s = u * t + 0.5 * a * (t ** 2)
+
+print("\nDistance travelled:", s, "meters")
